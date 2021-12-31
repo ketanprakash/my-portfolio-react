@@ -1,0 +1,44 @@
+.header{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  font-size: 17px;
+  padding: 0 10px;
+
+  .description{
+    display: flex;
+    align-items: center;
+
+    .image{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      border: 1px solid black;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .options{
+    .option{
+      padding: 4px 10px;
+      border: 1px solid white;
+      cursor: pointer;
+      transition: 300ms;
+
+      &.option-focus{
+        color: #e65353;
+        border: 1px solid #e65353;
+      }
+
+      &:hover{
+        background: #e65353;
+        color: white;
+        border: 1px solid black;  
+      }
+    }
+
+  }
+}
