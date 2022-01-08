@@ -4,7 +4,7 @@ const projectList = [
     title: "Nice Note Taker",
     imageUrl: "https://ik.imagekit.io/ketanprakash001/Portfolio_assets/Screenshot_20210814_223311_s8PUF7AtHLO.png?updatedAt=1628962482454", 
     codeUrl: "https://github.com/ketanprakash/webmonth-final-project-frontend", 
-    hostedUrl: ""
+    hostedUrl: "https://webmonthfinal.netlify.app/"
   },
   {
     id: 2, 
