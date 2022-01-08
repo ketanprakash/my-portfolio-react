@@ -1,0 +1,59 @@
+.project{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  position: relative;
+  transition: 300ms;
+
+  .image{
+    width: 100%;
+    aspect-ratio: 16/10;
+    border-bottom: 1px solid black;
+  }
+
+  .links{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    .link{  
+      width: 80px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+      border: 1px solid white;
+      cursor: pointer;
+      transition: 300ms;
+      background: white;
+      border: 1px solid black;
+      color: black;
+  
+      &:hover{
+        background: #e65353;
+        color: white;
+        border: 1px solid black;  
+      }
+    }
+  }
+
+  .title{
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  &:hover{
+    opacity: 80%;
+
+    .links{
+      display: flex;
+      opacity: 80%;
+    }
+  }
+}

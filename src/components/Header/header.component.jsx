@@ -16,18 +16,18 @@ const Header = () => {
         <Link to='/' className={`option ${pathname==='/' ? 'option-focus':''}`}>
           ABOUT ME
         </Link>
-        <Link to='/academics' className={`option ${pathname==='/academics' ? 'option-focus':''}`}>
+        {/* <Link to='/academics' className={`option ${pathname==='/academics' ? 'option-focus':''}`}>
           ACADEMICS
-        </Link>
+        </Link> */}
         <Link to='/projects' className={`option ${pathname==='/projects' ? 'option-focus':''}`}>
           MY PROJECTS
         </Link>
         {/* <Link className="option">
           WORK EXPERIENCE
         </Link>       */}
-        <Link to='/contact' className={`option ${pathname==='/contact' ? 'option-focus':''}`}>
+        {/* <Link to='/contact' className={`option ${pathname==='/contact' ? 'option-focus':''}`}>
           CONTACT ME
-        </Link>
+        </Link> */}
       </div>
     </div>
   )

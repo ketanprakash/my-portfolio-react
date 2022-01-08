@@ -1,0 +1,15 @@
+.projects{
+  padding: 10px;
+
+  .project-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+  }
+
+  .project{
+    margin: 10px;
+  }
+}
