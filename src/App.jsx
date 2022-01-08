@@ -9,7 +9,7 @@ import Projects from './pages/projects/projects.component';
 import Academics from './pages/academics/academics.component';
 
 //react-router
-import { Routes, Route } from 'react-router';
+import { Routes, Route, Navigate } from 'react-router';
 
 const App = () => (
   <div className="App">
@@ -19,6 +19,7 @@ const App = () => (
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/academics' element={<Academics/>}/>
+      <Route path='*' element={<Navigate to='/'/>}/>
     </Routes>
   </div>
 )

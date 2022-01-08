@@ -1,5 +1,5 @@
 const Projects = () => (
-  <div className="contact">This is projects component</div>
+  <div className="projects">This is projects component</div>
 )
 
 export default Projects;
