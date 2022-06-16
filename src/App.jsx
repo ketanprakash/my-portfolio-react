@@ -7,7 +7,6 @@ import About from './pages/about/about.component';
 import Contact from './pages/contact/contact.component';
 import Projects from './pages/projects/projects.component';
 import Academics from './pages/academics/academics.component';
-import Project from './components/project/project.component';
 
 //react-router
 import { Routes, Route, Navigate } from 'react-router';
